@@ -234,6 +234,7 @@ nav svg{
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     
 }
 
@@ -246,7 +247,7 @@ nav svg{
     background-color: rgba(79, 77, 77, 0.648);
 
     background-blend-mode: multiply;
-    transition: 0.5s ;
+   
    
 }
 
@@ -256,8 +257,8 @@ nav svg{
     font-weight: bold;
     color: white;
     text-decoration: none;
-    position: absolute;
-    bottom: -80px;
+    position: relative;
+    top:210px;
    
 
 }
@@ -274,6 +275,7 @@ nav svg{
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .projectbb{
@@ -296,13 +298,90 @@ nav svg{
     font-weight: bolder;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    position: absolute;
-    bottom: -80px;
+    position: relative;
+    top:210px;
     fill: rgba(255, 255, 255, 0.947);
    
 }
 
 #projectb:hover .projectbb{
+    display: block;
+    
+}
+#projectc{
+    background: url(../img/idealist.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.projectcc{
+    height: 100%;
+    width: 100%;
+    display: none;
+    border-radius: 5px;
+    background-color: rgba(79, 77, 77, 0.648);
+
+    background-blend-mode: multiply;
+    transition: 0.5s ;
+   
+}
+
+
+
+.projectcc a{
+    font-size: 30px;
+    font-family: lato;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    top:210px;
+    fill: rgba(255, 255, 255, 0.947);
+   
+}
+
+#projectc:hover .projectcc{
+    display: block;
+    
+}
+
+#projectd{
+    background: url(../img/myprotfolio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.projectdd{
+    height: 100%;
+    width: 100%;
+    display: none;
+    border-radius: 5px;
+    background-color: rgba(79, 77, 77, 0.648);
+
+    background-blend-mode: multiply;
+    transition: 0.5s ;
+   
+}
+
+
+
+.projectdd a{
+    font-size: 30px;
+    font-family: lato;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    top:210px;
+    fill: rgba(255, 255, 255, 0.947);
+   
+}
+
+#projectd:hover .projectdd{
     display: block;
     
 }
