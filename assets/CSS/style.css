@@ -385,6 +385,82 @@ nav svg{
     display: block;
     
 }
+#projecte{
+    background: url(../img/digital\ clock.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.projectee{
+    height: 100%;
+    width: 100%;
+    display: none;
+    border-radius: 5px;
+    background-color: rgba(79, 77, 77, 0.648);
+
+    background-blend-mode: multiply;
+    transition: 0.5s ;
+   
+}
+
+
+
+.projectee a{
+    font-size: 30px;
+    font-family: lato;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    top:210px;
+    fill: rgba(255, 255, 255, 0.947);
+   
+}
+
+#projecte:hover .projectee{
+    display: block;
+    
+}
+#projectf{
+    background: url(../img/card.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.projectff{
+    height: 100%;
+    width: 100%;
+    display: none;
+    border-radius: 5px;
+    background-color: rgba(79, 77, 77, 0.648);
+
+    background-blend-mode: multiply;
+    transition: 0.5s ;
+   
+}
+
+
+
+.projectff a{
+    font-size: 30px;
+    font-family: lato;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    top:210px;
+    fill: rgba(255, 255, 255, 0.947);
+   
+}
+
+#projectf:hover .projectff{
+    display: block;
+    
+}
 
 
 
