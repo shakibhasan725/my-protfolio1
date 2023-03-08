@@ -203,28 +203,6 @@ nav svg{
 
 }
 
-#skillss{
-    display: none;
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-}
-
-.frontend{
-    height: 450px;
-    width: 400px;
-    background-color: aqua;
-
-}
-.backend{
-    height: 450px;
-    width: 400px;
-    background-color: aqua;
-}
 .footer{
     height: 60px;
     background: linear-gradient(rgba(4, 4, 4, 0.897) ,rgba(12, 4, 29, 0.811), rgba(11, 2, 13, 0.975));
@@ -474,8 +452,32 @@ nav svg{
 
 
 
+#skillss{
+    display: none;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.frontend{
+    height: 450px;
+    width: 400px;
+    background-color: rgb(237, 202, 239);
+    border-radius: 5px;
+
+}
+.backend{
+    height: 450px;
+    width: 400px;
+    background-color: rgb(237, 202, 239);
+    border-radius: 5px;
 
 
+}
 
 
 
