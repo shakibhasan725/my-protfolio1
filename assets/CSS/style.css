@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:wght@300&family=Tilt+Prism&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Tilt Prism', cursive;
+    }
+
+nav{
+    
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    
+}
+
+nav svg{
+    position: absolute;
+    right: 30%;
+    cursor: pointer;
+}
+#day{
+    display: none;
+}
+
+.full-body{
+    height: auto;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+.img{
+    height: 160px;
+    width: 160px;
+    background-color: rgba(68, 169, 247, 0.555);
+    border-radius: 50%;
+    border: 5px solid rgba(141, 16, 199, 0.575);
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+.img img{
+    height: 160px;
+    margin-left: 10px;
+}
+.profile h1{
+    text-align: center;
+
+}
+.profile h6{
+    text-align: center;
+    font-family: Merriweather;
+}
+
+.cont{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.cont svg{
+    height: 35px;
+    width: 35px;
+    fill: black;
+    margin-right: 10px;
+}
+
+.exp{
+    font-family: Lato ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+   column-gap: 55px;
+}
+
+.one{
+    text-align: center;
+}
+
+.one p{
+    font-weight: bolder;
+}
+
+#one1{
+    font-weight: 400;
+}
+#one2{
+    font-weight: 400;
+}
+.cv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    column-gap: 40px;
+}
+
+.cv a{
+    font-size: 20px;
+    font-family: lato;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+
+}
+.cv a svg{
+    fill: white;
+    margin: auto;
+    vertical-align: middle;
+}
+.aaaa{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.aaaa a{
+    background: transparent;
+    color: black;
+}
+.aaaa a svg{
+    height: 30px;
+    width: 30px;
+    fill: black;
+
+}
+
+.project-skill{
+    font-family: lato;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+.box{
+    background-color: rgba(128, 128, 128, 0.288);
+
+    display: flex;
+    flex-direction: row;
+    
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+
+}
+
+.box button{
+    background: none;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 18px;
+    width: 50%;
+    border-radius: 5px;
+    transition: 1s ;
+    left: 0;
+
+}   
+#projectss{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.project1{
+    height: 300px;
+    width: 400px;
+    background-color: bisque;
+
+}
+
+#skillss{
+    display: none;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.frontend{
+    height: 450px;
+    width: 400px;
+    background-color: aqua;
+
+}
+.backend{
+    height: 450px;
+    width: 400px;
+    background-color: aqua;
+}
+.footer{
+    height: 80px;
+    background-color: rgb(70, 70, 70);
+    font-size: 30px;
+    font-family: lato;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    .full-body{
+        width: 99%;
+    }
+    nav svg{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+}
