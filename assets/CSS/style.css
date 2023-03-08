@@ -234,15 +234,19 @@ nav svg{
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 5px;
+    
 }
 
 
 .projectaa{
     height: 100%;
     width: 100%;
-    background-color: rgba(79, 77, 77, 0.648);
     display: none;
     border-radius: 5px;
+    background-color: rgba(79, 77, 77, 0.648);
+
+    background-blend-mode: multiply;
+    transition: 0.5s ;
    
 }
 
@@ -265,8 +269,43 @@ nav svg{
 
 
 
+#projectb{
+    background: url(../img/myprotfolio1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.projectbb{
+    height: 100%;
+    width: 100%;
+    display: none;
+    border-radius: 5px;
+    background-color: rgba(79, 77, 77, 0.648);
+
+    background-blend-mode: multiply;
+    transition: 0.5s ;
+   
+}
 
 
+
+.projectbb a{
+    font-size: 30px;
+    font-family: lato;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    bottom: -80px;
+    fill: rgba(255, 255, 255, 0.947);
+   
+}
+
+#projectb:hover .projectbb{
+    display: block;
+    
+}
 
 
 
