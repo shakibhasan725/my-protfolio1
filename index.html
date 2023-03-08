@@ -65,7 +65,7 @@
             <div class="box">
                 
                 <button id="project">Projects</button>
-                <button id="skills">Skills</button>
+                <button id="skills" >Skills</button>
 
 
             </div>
@@ -147,14 +147,10 @@
        const projectss = document.getElementById('projectss');
        const skillss = document.getElementById('skillss');
        project.onclick = () =>{
-        project.style.backgroundColor = 'black';
-        skills.style.backgroundColor = '';
         projectss.style.display='flex';
         skillss.style.display='none';
        }
        skills.onclick = () =>{
-        skills.style.backgroundColor = 'black';
-        project.style.backgroundColor = '';
         projectss.style.display='none';
         skillss.style.display='flex';
        }

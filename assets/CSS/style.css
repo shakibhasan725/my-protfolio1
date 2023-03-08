@@ -45,7 +45,7 @@ nav svg{
     width: 160px;
     background-color: rgba(68, 169, 247, 0.555);
     border-radius: 50%;
-    border: 5px solid rgba(141, 16, 199, 0.575);
+    border: 5px solid rgb(138, 19, 194);
     margin: auto;
     overflow: hidden;
 }
@@ -118,7 +118,7 @@ nav svg{
     font-weight: bolder;
     text-decoration: none;
     color: white;
-    background-color: black;
+    background-color: rgb(138, 19, 194);
     padding: 10px;
     border-radius: 5px;
     vertical-align: middle;
@@ -141,7 +141,7 @@ nav svg{
 .aaaa a svg{
     height: 30px;
     width: 30px;
-    fill: black;
+    fill: rgb(138, 19, 194);
 
 }
 
@@ -180,6 +180,8 @@ nav svg{
     left: 0;
 
 }   
+
+
 #projectss{
     display: flex;
     flex-wrap: wrap;
