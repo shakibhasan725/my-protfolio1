@@ -228,6 +228,62 @@ nav svg{
     text-align: center;
 }
 
+
+#projecta{
+    background: url(../img/analog\ clock.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+
+.projectaa{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(79, 77, 77, 0.648);
+    display: none;
+    border-radius: 5px;
+   
+}
+
+.projectaa a{
+    font-size: 30px;
+    font-family: lato;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: -80px;
+   
+
+}
+
+#projecta:hover .projectaa{
+    display: block;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 550px) {
     .full-body{
         width: 99%;
