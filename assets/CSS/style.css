@@ -466,23 +466,93 @@ nav svg{
 .frontend{
     height: 450px;
     width: 400px;
-    background-color: rgb(237, 202, 239);
+    background-color: #8b13c229;
     border-radius: 5px;
+    text-align: center;
+    font-family: lato;
+    font-weight: 600;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
 
 }
 .backend{
     height: 450px;
     width: 400px;
-    background-color: rgb(237, 202, 239);
+    background-color: #8b13c229;
     border-radius: 5px;
+   
+    text-align: center;
+    font-family: lato;
+    font-weight: 600;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
 
 
+.contxx{
+    margin-top: 30px;
 }
 
 
 
 
 
+
+
+
+
+
+
+
+#ftnd{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#bnd{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.contxx{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.left{
+    width: 50%;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.right{
+    width: 50%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.contex{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.contex h6{
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.contex h6 svg{
+    fill: green;
+    vertical-align: middle;
+    margin-right: 5px;
+    
+}
+.contex p{
+    margin-left: 22px;
+    color: rgba(87, 86, 86, 0.922) ;
+}
 
 
 
